@@ -1,0 +1,112 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Footermain, #Footleft, #Footright {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    position:fixed;
+    width: 100%;
+    left: 0;
+  bottom: 0;
+    
+    background:#f2f2f2;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftnav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+#rightnav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#MainDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+}
+
+.navleft, .navright {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.leftlink, .rightlink {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+.submit {
+    padding: 0.75em;
+    border: none; 
+    border-radius: 5px;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+}
+
+.submit:hover {
+    border: solid 1px rgb(158, 157, 157);
+}
+
+#submittwo, .lang {
+    display:flex;
+    justify-content: center;
+}
+
+.langg {
+    padding-left: 8px;
+}
+
+.lang {
+    flex-grow: 1;
+    font-size: 0.8em;
+}
+
+.country {
+    margin-left: 0em;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px gray;
+}
+
+#searchbar {
+
+    width: 560px;
+    height: 40px;
+    border: 1px solid rgb(151, 151, 151);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding:
+
+}
+
+.searchi {
+    display:flex;
+    justify-content: center;
+}
