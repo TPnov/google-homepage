@@ -3,7 +3,7 @@
 
 <head>
     <title>Google</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -16,29 +16,37 @@
         <div id="rightnav">
             <a class="navright" href="gmail.google">Gmail</a>
             <a class="navright" href="images.google">Images</a>
-            <button class="navright">...</button>
-            <button class="navright">Sign In</button>
+            <button class="buttleft">...</button>
+            <button class="buttright">Sign In</button>
         </div>
     </header>
 
     <div id="MainDiv"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             alt="google.logo"></div>
-    <div class="searchi">
-        <input type="text" id="searchbar">
+    <main id="mainpage">
+        <div id="searchi">
+            <img class="searchicon" src="search-icon.png" alt="search-icon">
 
-    </div>
-    <div id="submittwo">
+            <input type="text" id="searchbar">
+
+            <img class="mic" src="google-mic.png" alt="Mic">
+
+        </div>
+        <div id="submittwo">
 
 
-        <input type="submit" class="submit" name="Search" value="Google Search">
-        <input type="submit" class="submit" name="Feeling" value="I'm Feeling Lucky">
+            <input type="submit" class="submit" name="Search" value="Google Search">
+            <input type="submit" class="submit" name="Feeling" value="I'm Feeling Lucky">
 
-    </div>
+        </div>
 
-    <p class="lang">Google offered in: <a class="langg" href="deutsch.google"> Deutsch</a></p>
 
+        <p class="lang">Google offered in: <a class="langg" href="deutsch.google"> Deutsch</a></p>
+    </main>
     <footer>
-        <p class="country">Germany</p>
+        <div id="focou">
+            <p class="country">Germany</p>
+        </div>
         <div id="Footermain">
             <div id="Footleft">
                 <a class="leftlink" href="advertising.google">Advertising</a>
