@@ -38,7 +38,7 @@ header {
 #MainDiv {
     display: flex;
     justify-content: center;
-    padding-top: 1.5em;
+    padding-top: 0.5em;
     padding-bottom: 1em;
 }
 
@@ -50,21 +50,23 @@ header {
 }
 
 .leftlink, .rightlink {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
     padding-top: 1em;
     padding-bottom: 1em;
+    color: #70757a;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
     font-size: 13px;
 }
 a:hover {
     text-decoration: underline;
 }
 .submit {
+    background: #f8f9fa;
     padding: 0.75em 1.25em;
     border: solid 1px transparent; 
     border-radius: 5px;
@@ -98,15 +100,16 @@ a:hover {
 }
 
 .country {
+    color: #70757a;
    margin-left: 2.5em;
    padding-top: 0.15em;
    padding-bottom: 0.15em;
-   font-size: 14px;
+   font-size: 15px;
 }
 #focou {
     margin-left: 0em;
-    padding-bottom: 0.5em;
-    border-bottom: solid 1px gray;
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid #dadce0;
     
 }
 
@@ -121,21 +124,23 @@ outline: none;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width: 560px;
-    height: 32px;
-    border: 1px solid rgb(151, 151, 151);
-    margin-bottom: 20px;
+    min-width: 560px;
+    height: 35px;
+    border: 1px solid rgba(223,225,229);
+    margin-bottom: 30px;
     margin-top: 10px;
     border-radius: 25px;
     padding: 5px;
+   
 }
 
 #searchi:hover {
-    border:rgb(151, 151, 151) 2px solid;
+    borer:rgb(151, 151, 151) 2px solid;
+    box-shadow: 1px 1px 3px 1px rgb(212, 212, 212);
 }
 
 .buttright {
-    min-width: 96px;
+    width: 96px;
     height: 38px;
     font-size: 14px;
     background: #1a73e8;
@@ -147,14 +152,39 @@ outline: none;
     margin-top: 5px;
 }
 
-.buttleft {
-    width: 38px;
-    height: 38px;
-    margin-top: 5px;
-    border: none;
-    background: transparent;
+@media screen and (max-width:780px) {
+    .buttright {
+        width: 78px;
+    }
+
+}
+
+.buttright:hover {
+    background: linear-gradient( #4387fd,#4683ea);
+    box-shadow: 0.25px 0.25px 1px 0.25px #4683ea;
+}
+
+.navdoto {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.navdoto:hover {
+ background: rgb(241, 241, 241);
+}
+
+.navdot {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
    
 }
+
 
 .mic {
     width: 30px;
@@ -164,4 +194,5 @@ outline: none;
 
 .searchicon {
     padding-left: 5px;
+    padding-right: 7px;
 }
